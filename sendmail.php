@@ -13,7 +13,7 @@ email     : %s
 ini_set('SMTP',      $STMP_HOST );
 ini_set('smtp_port', $SMTP_PORT );
 
-$to = 'lihaibo@cdsf.com';
+$to = 'torrent88410@gmail.com';
 $subject = '[auto mail] from your site, some one is interested in your courses';
 
 $headers = 'MIME-Version: 1.0\r\n';
