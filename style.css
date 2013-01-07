@@ -1,4 +1,4 @@
-.wraper {width:766px; height:780px;margin:0 auto;}
+.wraper {width:966px; height:780px;margin:0 auto;position:relative;}
 
 td, table{
 	font-family:verdana;
@@ -67,3 +67,13 @@ h1{
 	line-height: 28px;
 	font-weight: 200;
 }
+
+.left-link{
+	display: inline-block;
+	margin-right: 1px;
+	margin-bottom: 2px;
+}
+
+
+
+.nav-button{width: 111px;margin-left:2px;float: left;margin-right:-2px;}

@@ -1,14 +1,14 @@
 {#extends file='layout.tpl'#}
 {#block name=body#}
 <div  style="width:676px; height:562px; background:url(images/mosaik.gif) no-repeat;">
-  <a href="index-1.php"><img src="images/main.jpg" style="margin-left:452px"></a>
+  <i><img src="images/main.jpg" class="left-link" style="margin-left:452px"><img src="images/back.gif" class="left-link"></i>
   <div></div>
-  <a href="index-2.php"><img src="images/brief.jpg" style="margin-left:113px"></a>
+  <i><img src="images/brief.jpg" class="left-link" style="margin-left:113px"><img src="images/comp.gif" class="left-link"></i>
   <div></div>
-  <a href="index-3.php"><img src="images/services.jpg" style="margin-left:339px"></a>
+  <i><img src="images/services.jpg" class="left-link" style="margin-left:339px"><img src="images/srv.gif" class="left-link"></i>
   <div></div>
-  <a href="index-4.php"><img src="images/solutions.jpg" ></a>
+  <i><img src="images/solutions.jpg" class="left-link" ><img src="images/sol.gif" class="left-link" ></i>
   <div></div>
-  <a href="index-5.php"><img src="images/contact.jpg" style="margin-left:226px"></a>
+  <i><img src="images/contact.jpg" class="left-link" style="margin-left:226px"><img src="images/cont.gif" class="left-link" ></i>
 </div>
 {#/block#}

@@ -4,9 +4,16 @@
       line-height:40px;
       height:40px;
     ">
-      <img src="images/c_name.gif" alt="" style="vertical-align:middle;"><span style="line-height:40px;height:40px;padding-left:30px;font-size:20px;vertical-align: middle;">business focus china</span>
+      <img src="images/logo.gif" alt="" style="vertical-align:middle;">
     </div>
-    <div  style="width:116px;padding-top:66px;float:left;">
-       <a href="index-1.php"><img src="images/link.gif" alt="" style="margin-right:18px"  border="0"></a><a href="#"><img src="images/link1.gif" alt="" style="margin-right:21px"  border="0"></a><a href="#"><img src="images/link2.gif" alt="" border="0"></a>
+    
+    <div class="nav-button"><a href="{#$index_page#}">main</a></div>
+    <div class="nav-button"><a href="{#$course_page#}">courses</a></div>
+    <div class="nav-button"><a href="{#$teacher_page#}">trainers</a></div>
+    <div class="nav-button"><a href="{#$contact_page#}">contact us</a></div>
+    <div class="nav-button"><a href="{#$faq#}">faq</a></div>
+    <div class="nav-button">
+      <span id="en-US" class="button-left">english</span>
+      <span id="zh-CN" class="button-right">中文</span>
     </div>
 </div>

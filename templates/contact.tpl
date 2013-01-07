@@ -1,15 +1,15 @@
 {#extends file='contents-page.tpl'#}
 {#block name=content#}
-  <h1>Mailing Address</h1><br>
-  <img src="images/pic5_3.gif" alt="" align="left" style="margin-top:2px; margin-right:14px">
+  <h1>Mailing Address</h1><br />
+  <img src="{#$company_pic#}" alt="" align="left" style="margin-top:2px; margin-right:14px">
   <strong>{#$company_name#}</strong><br>
   {#$company_address#}<br>
   <br style="line-height:12px">
-  Freephone:{#$company_phone#}<br>
-  FAX:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{#$company_fax#}<br>
-  <br style="line-height:26px"> 
+  Phone:&nbsp;&nbsp;{#$company_phone#}<br>
+  Fax:&nbsp;&nbsp;{#$company_fax#}<br>
+  <br style="line-height:46px"> 
   <img src="images/px2_1.gif" alt="" style="margin-left:20px;"><br>
-  <br style="line-height:14px"> 
+  <br style="line-height:24px"> 
   <h1>Contact Form</h1>
   <div class="form">
     Leave us a mesage if you are interested in us<br>
@@ -42,8 +42,7 @@
     </table>
     </form>
   </div>
-  <br style="line-height:14px"> 
+  <br style="line-height:24px"> 
   <img src="images/px2_1.gif" alt="" style="margin-left:20px;"><br>
-  <br style="line-height:14px"> 
-  <h1>Departments</h1>
+
 {#/block#}

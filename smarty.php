@@ -11,4 +11,11 @@ $smarty->caching = false;
 $smarty->left_delimiter = '{#';
 $smarty->right_delimiter = '#}';
 
+$smarty->assign('index_page',  'index.php');
+$smarty->assign('main_page',   'main.php');
+$smarty->assign('course_page', 'course.php');
+$smarty->assign('teacher_page','teachers.php');
+$smarty->assign('contact_page','contact.php');
+$smarty->assign('faq_page',    'faq.php');
+
 ?>
