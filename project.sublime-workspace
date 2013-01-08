@@ -860,6 +860,7 @@
 	},
 	"file_history":
 	[
+		"/D/backup/lolAccont.txt",
 		"/F/_backup/phpScript/simply_site/templates/inner-left.tpl",
 		"/F/_backup/demo/syncDir/syncFolder.js",
 		"/F/_backup/phpScript/simply_site/db.php",
@@ -986,8 +987,7 @@
 		"/F/_backup/nodelib/browserclient.js",
 		"/F/projectUportal/onePortal/WebRoot/c03/public/js/pop/pop.js",
 		"/F/projectUportal/onePortal/WebRoot/c03/public/js/uxe.rebuild.js",
-		"/F/projectUportal/onePortal/WebRoot/c03/public/js/servicesPage/modules/notification.js",
-		"/F/projectUportal/onePortal/WebRoot/c03/public/js/modules/editNotification.js"
+		"/F/projectUportal/onePortal/WebRoot/c03/public/js/servicesPage/modules/notification.js"
 	],
 	"find":
 	{
@@ -1203,7 +1203,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1228,7 +1228,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2261.0,
+						"translation.y": 2174.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1245,8 +1245,8 @@
 						"selection":
 						[
 							[
-								338,
-								345
+								902,
+								902
 							]
 						],
 						"settings":
@@ -1301,8 +1301,8 @@
 						"selection":
 						[
 							[
-								1558,
-								1558
+								670,
+								684
 							]
 						],
 						"settings":
@@ -1327,8 +1327,8 @@
 						"selection":
 						[
 							[
-								586,
-								586
+								159,
+								163
 							]
 						],
 						"settings":

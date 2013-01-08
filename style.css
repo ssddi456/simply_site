@@ -92,17 +92,22 @@ h1{
 	font-weight: 600;	
 }
 
-.bg-main		{background-position:0 0px;}
-.bg-courses	{background-position:-113px 0px;}
-.bg-trainers{background-position:-226px 0px;}
-.bg-contact	{background-position:-339px 0px;}
-.bg-faq			{background-position:-451px 0px;}
-.nav-button:hover { background-position-y: -42px;}
-.nav-button a:hover{ color: white;}
+.bg-courses	{background-position-x:-113px;}
+.bg-trainers{background-position-x:-226px;}
+.bg-contact	{background-position-x:-339px;}
+.bg-faq			{background-position-x:-451px;}
+.button-left,.button-right{
+	background: #FFF url('images/title.png') no-repeat;
+}
+.nav-button-last .button-left{background-position-x:-563px;}
+.nav-button-last .button-right{background-position-x:-622px;}
 
-.nav-button-last {background-position:-563px 0px;margin-right:0px;}
+.nav-button:hover,.button-left:hover,.button-right:hover { background-position-y: -42px;}
+.nav-button:hover a{color: white;}
+a.button-left:hover,a.button-right:hover{ color: gray;}
+
+.nav-button-last {margin-right:0px;background: none;}
 .nav-button-last a{display: inline-block;width: 54px;}
-
 .slide-title{
 	font-size: 18px;
 	line-height:24px;
