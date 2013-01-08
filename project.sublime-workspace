@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"h",
+				":hover"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
 				"background-p",
 				"background-position"
 			],
@@ -70,10 +78,6 @@
 			[
 				"is",
 				"issame"
-			],
-			[
-				"h",
-				"hs2"
 			],
 			[
 				"hs",
@@ -312,10 +316,6 @@
 				"socket"
 			],
 			[
-				"co",
-				"code"
-			],
-			[
 				"ex",
 				"exit"
 			],
@@ -523,7 +523,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 2396,
+				"buffer_size": 2635,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "templates/head.tpl",
 			"settings":
 			{
-				"buffer_size": 902,
+				"buffer_size": 913,
 				"line_ending": "Windows"
 			}
 		},
@@ -540,14 +540,6 @@
 			"settings":
 			{
 				"buffer_size": 1666,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "smarty.php",
-			"settings":
-			{
-				"buffer_size": 1575,
 				"line_ending": "Windows"
 			}
 		},
@@ -572,6 +564,30 @@
 			"settings":
 			{
 				"buffer_size": 778,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/backup/lolAccont.txt",
+			"settings":
+			{
+				"buffer_size": 193,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "course.php",
+			"settings":
+			{
+				"buffer_size": 529,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "teachers.php",
+			"settings":
+			{
+				"buffer_size": 563,
 				"line_ending": "Windows"
 			}
 		}
@@ -860,6 +876,11 @@
 	},
 	"file_history":
 	[
+		"/D/backup/phpScript/simply_site_zh/templates/head.tpl",
+		"/D/backup/phpScript/simply_site/smarty.php",
+		"/L/wamp/alias/simple.conf",
+		"/L/wamp/simply_cn/templates/head.tpl",
+		"/L/wamp/simple/templates/head.tpl",
 		"/D/backup/lolAccont.txt",
 		"/F/_backup/phpScript/simply_site/templates/inner-left.tpl",
 		"/F/_backup/demo/syncDir/syncFolder.js",
@@ -982,12 +1003,7 @@
 		"/D/tools/Sublime Text 2.0.1/Data/Packages/Markdown Slideshow/MarkdownSlideshow.py",
 		"/C/Program Files/nodejs/node_modules/mysql/Readme.md",
 		"/D/tools/Sublime Text 2.0.1/Data/Packages/Markdown Slideshow/README.md",
-		"/D/tools/Sublime Text 2.0.1/Data/Packages/Markdown Slideshow/package-metadata.json",
-		"/C/Program Files/nodejs/node_modules/less/README.md",
-		"/F/_backup/nodelib/browserclient.js",
-		"/F/projectUportal/onePortal/WebRoot/c03/public/js/pop/pop.js",
-		"/F/projectUportal/onePortal/WebRoot/c03/public/js/uxe.rebuild.js",
-		"/F/projectUportal/onePortal/WebRoot/c03/public/js/servicesPage/modules/notification.js"
+		"/D/tools/Sublime Text 2.0.1/Data/Packages/Markdown Slideshow/package-metadata.json"
 	],
 	"find":
 	{
@@ -1211,15 +1227,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 2396,
+						"buffer_size": 2635,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1739,
-								1739
+								2272,
+								2272
 							]
 						],
 						"settings":
@@ -1228,7 +1244,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2174.0,
+						"translation.y": 2696.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1238,15 +1254,15 @@
 					"file": "templates/head.tpl",
 					"settings":
 					{
-						"buffer_size": 902,
+						"buffer_size": 913,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								902,
-								902
+								784,
+								784
 							]
 						],
 						"settings":
@@ -1273,8 +1289,8 @@
 						"selection":
 						[
 							[
-								544,
-								548
+								555,
+								555
 							]
 						],
 						"settings":
@@ -1284,39 +1300,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1008.0,
+						"translation.y": 783.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "smarty.php",
-					"settings":
-					{
-						"buffer_size": 1575,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								670,
-								684
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "templates/index.tpl",
 					"settings":
 					{
@@ -1342,7 +1332,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "main.php",
 					"settings":
 					{
@@ -1369,7 +1359,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "templates/teacher.tpl",
 					"settings":
 					{
@@ -1380,8 +1370,8 @@
 						"selection":
 						[
 							[
-								71,
-								71
+								778,
+								778
 							]
 						],
 						"settings":
@@ -1389,6 +1379,86 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/backup/lolAccont.txt",
+					"settings":
+					{
+						"buffer_size": 193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "course.php",
+					"settings":
+					{
+						"buffer_size": 529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "teachers.php",
+					"settings":
+					{
+						"buffer_size": 563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

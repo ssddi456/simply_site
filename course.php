@@ -2,7 +2,7 @@
 	include('smarty.php'); 
 	include('db.php'); 
 	
-	$sql = "SELECT * FROM T_COURSER_INFO";
+	$sql = "SELECT * FROM T_COURSER_INFO_EN";
 	$result = mysql_query($sql);   
 	$teachers = array();
 	while( $row = mysql_fetch_array($result) ){

@@ -16,8 +16,8 @@
       <div class="nav-button bg-contact"><a href="{#$contact_page#}">CONTACTS</a></div>
       <div class="nav-button bg-faq"><a href="{#$faq_page#}">FAQ</a></div>
       <div class="nav-button nav-button-last">
-        <a id="en-US" href="/"   class="button-left">EN</a>
-        <a id="zh-CN" href="/cn" class="button-right">中文</a>
+        <a id="en-US" href="/simple"   class="button-left">EN</a>
+        <a id="zh-CN" href="/simple_cn" class="button-right">中文</a>
       </div>
     </div>
 </div>
