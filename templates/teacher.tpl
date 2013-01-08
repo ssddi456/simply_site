@@ -1,6 +1,6 @@
 {#extends file='contents-page.tpl'#}
 {#block name=content#}
-  <h1>Teachers</h1><br>
+  <h1>Trainers</h1><br>
   {#foreach $teachers as $teacher#}
     {#if $teacher@iteration is odd#}
     <div style="height:120px;">

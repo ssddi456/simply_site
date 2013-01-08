@@ -1,4 +1,4 @@
-.wraper {width:966px; height:780px;margin:0 auto;position:relative;}
+.wraper {width:1060px; height:780px;margin:0 auto;position:relative;}
 
 td, table{
 	font-family:verdana;
@@ -70,10 +70,48 @@ h1{
 
 .left-link{
 	display: inline-block;
-	margin-right: 1px;
-	margin-bottom: 2px;
+	margin-left: 2px;
 }
 
 
+.nav {
+	overflow: auto;
+	height: 40px;
+}
+.nav-button{
+	background: #FFF url('images/title.png') no-repeat;
+	width: 111px;
+	float: left;
+	margin-right:2px;
+	text-align: center;
+}
+.nav-button a{
+	color: #fff;
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 600;	
+}
 
-.nav-button{width: 111px;margin-left:2px;float: left;margin-right:-2px;}
+.bg-main		{background-position:0 0px;}
+.bg-courses	{background-position:-113px 0px;}
+.bg-trainers{background-position:-226px 0px;}
+.bg-contact	{background-position:-339px 0px;}
+.bg-faq			{background-position:-451px 0px;}
+.nav-button:hover { background-position-y: -42px;}
+.nav-button a:hover{ color: white;}
+
+.nav-button-last {background-position:-563px 0px;margin-right:0px;}
+.nav-button-last a{display: inline-block;width: 54px;}
+
+.slide-title{
+	font-size: 18px;
+	line-height:24px;
+	margin:15px 5px 10px 5px;
+	font-weight: 200;	
+}
+.slide-content{
+	padding    : 5px 15px;
+	word-wrap  : break-word;
+	word-break : break-all;
+	word-wrap  : break-word;
+}

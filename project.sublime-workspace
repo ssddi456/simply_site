@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"background-p",
+				"background-position"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"nav",
+				"nav-button"
+			],
+			[
+				"si",
+				"slide-content"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
 				"l",
 				"length"
 			],
@@ -490,56 +514,16 @@
 			[
 				"ut",
 				"util"
-			],
-			[
-				"he",
-				"headers"
-			],
-			[
-				"spl",
-				"splice"
-			],
-			[
-				"id",
-				"idx"
-			],
-			[
-				"func",
-				"function"
-			],
-			[
-				"u",
-				"until"
-			],
-			[
-				"li",
-				"listData"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "templates/index.tpl",
+			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 947,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/intro.tpl",
-			"settings":
-			{
-				"buffer_size": 1137,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "main.php",
-			"settings":
-			{
-				"buffer_size": 1402,
+				"buffer_size": 2396,
 				"line_ending": "Windows"
 			}
 		},
@@ -547,7 +531,39 @@
 			"file": "templates/head.tpl",
 			"settings":
 			{
-				"buffer_size": 695,
+				"buffer_size": 902,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/layout.tpl",
+			"settings":
+			{
+				"buffer_size": 1666,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "smarty.php",
+			"settings":
+			{
+				"buffer_size": 1575,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/index.tpl",
+			"settings":
+			{
+				"buffer_size": 788,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.php",
+			"settings":
+			{
+				"buffer_size": 560,
 				"line_ending": "Windows"
 			}
 		},
@@ -556,38 +572,6 @@
 			"settings":
 			{
 				"buffer_size": 778,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "db.php",
-			"settings":
-			{
-				"buffer_size": 378,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/F/_backup/demo/syncDir/syncFolder.js",
-			"settings":
-			{
-				"buffer_size": 3284,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/F/_backup/demo/syncDir/walkFolder.js",
-			"settings":
-			{
-				"buffer_size": 1571,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 1495,
 				"line_ending": "Windows"
 			}
 		}
@@ -876,26 +860,32 @@
 	},
 	"file_history":
 	[
+		"/F/_backup/phpScript/simply_site/templates/inner-left.tpl",
+		"/F/_backup/demo/syncDir/syncFolder.js",
+		"/F/_backup/phpScript/simply_site/db.php",
+		"/F/_backup/phpScript/simply_site/templates/teacher.tpl",
+		"/F/_backup/phpScript/simply_site/templates/head.tpl",
+		"/C/Users/Administrator/Downloads/bus1233801482154.sql",
+		"/F/_backup/phpScript/simply_site/main.php",
+		"/F/_backup/phpScript/simply_site/smarty.php",
+		"/F/_backup/demo/syncDir/walkFolder.js",
+		"/F/_backup/phpScript/simply_site/templates/index.tpl",
+		"/F/_backup/phpScript/simply_site/templates/intro.tpl",
+		"/F/_backup/phpScript/simply_site/templates/foot.tpl",
 		"/F/_backup/demo/mongo_ver/view/index.html",
 		"/F/projectUportal/onePortal/WebRoot/c03/public/js/servicesPage/modules/filter.js",
 		"/F/_backup/phpScript/simply_site/teachers.php",
 		"/F/_backup/phpScript/simply_site/course.php",
 		"/F/_backup/phpScript/simply_site/contact.php",
-		"/F/_backup/phpScript/simply_site/templates/inner-left.tpl",
 		"/F/projectUportal/onePortal/WebRoot/c03/public/js/servicesPage/modules/autosend.js",
 		"/F/projectUportal/onePortal/WebRoot/c03/public/js/msgplus_en_US.js",
 		"/F/projectUportal/onePortal/WebRoot/c03/public/js/servicesPage/modules/signature.js",
 		"/F/projectUportal/onePortal/resources/isAccessUportal/access/index.jsp",
 		"/F/_backup/demo/syncDir/testSync.js",
-		"/F/_backup/demo/syncDir/walkFolder.js",
 		"/F/wamp/simple/db.php",
 		"/C/Users/Administrator/Downloads/rails-3.2.9.gem",
 		"/F/_backup/phpScript/simply_site/project.sublime-workspace",
-		"/F/_backup/phpScript/simply_site/templates/teacher.tpl",
-		"/F/_backup/phpScript/simply_site/smarty.php",
-		"/F/_backup/phpScript/simply_site/templates/head.tpl",
 		"/F/_backup/phpScript/simply_site/templates/course.tpl",
-		"/F/_backup/demo/syncDir/syncFolder.js",
 		"/F/_backup/demo/syncDir/test",
 		"/F/_backup/phpScript/simply_site/smarty/change_log.txt",
 		"/F/wamp/simple/templates/teacher.tpl",
@@ -997,13 +987,7 @@
 		"/F/projectUportal/onePortal/WebRoot/c03/public/js/pop/pop.js",
 		"/F/projectUportal/onePortal/WebRoot/c03/public/js/uxe.rebuild.js",
 		"/F/projectUportal/onePortal/WebRoot/c03/public/js/servicesPage/modules/notification.js",
-		"/F/projectUportal/onePortal/WebRoot/c03/public/js/modules/editNotification.js",
-		"/F/_backup/phantomScript/cookieTest.js",
-		"/F/projectUportal/onePortal/WebRoot/c03/public/js/packagePage/package.js",
-		"/F/projectUportal/onePortal/WebRoot/c03/public/js/ajaxfileupload.js",
-		"/F/_backup/demo/imgserver/processQueue.js",
-		"/F/_backup/demo/imgserver/wikiupload.js",
-		"/F/_backup/demo/imgserver/setting.js"
+		"/F/projectUportal/onePortal/WebRoot/c03/public/js/modules/editNotification.js"
 	],
 	"find":
 	{
@@ -1022,6 +1006,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"*",
+			"span",
+			"a",
+			"class=\"left-link\"",
+			"style=\"\"",
+			"200",
+			"<div></div>",
+			"span",
 			"setBlacklist",
 			"source",
 			"teacher",
@@ -1141,15 +1133,7 @@
 			"_read",
 			"_emitData",
 			"",
-			"document",
-			"timelist",
-			"input",
-			"blur",
-			"CONTACTGROUP_EXISTS_NAME",
-			"剔重",
-			"\nfunction some () {\n    function other (){console.log( 'other');}\n    var other = [];\n    other();\n}\n",
-			"$(this).blur();",
-			"13"
+			"document"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1219,49 +1203,50 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "templates/index.tpl",
+					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 947,
+						"buffer_size": 2396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1739,
+								1739
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2261.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "templates/intro.tpl",
+					"file": "templates/head.tpl",
 					"settings":
 					{
-						"buffer_size": 1137,
+						"buffer_size": 902,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								338,
+								345
 							]
 						],
 						"settings":
@@ -1278,18 +1263,98 @@
 				},
 				{
 					"buffer": 2,
-					"file": "main.php",
+					"file": "templates/layout.tpl",
 					"settings":
 					{
-						"buffer_size": 1402,
+						"buffer_size": 1666,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1271,
-								1271
+								544,
+								548
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1008.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "smarty.php",
+					"settings":
+					{
+						"buffer_size": 1575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1558,
+								1558
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/index.tpl",
+					"settings":
+					{
+						"buffer_size": 788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								586,
+								586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "main.php",
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
 							]
 						],
 						"settings":
@@ -1304,35 +1369,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "templates/head.tpl",
-					"settings":
-					{
-						"buffer_size": 695,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								695,
-								695
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "templates/teacher.tpl",
 					"settings":
 					{
@@ -1343,8 +1380,8 @@
 						"selection":
 						[
 							[
-								778,
-								778
+								71,
+								71
 							]
 						],
 						"settings":
@@ -1355,115 +1392,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "db.php",
-					"settings":
-					{
-						"buffer_size": 378,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								378,
-								378
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/F/_backup/demo/syncDir/syncFolder.js",
-					"settings":
-					{
-						"buffer_size": 3284,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2870,
-								2870
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1104.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/F/_backup/demo/syncDir/walkFolder.js",
-					"settings":
-					{
-						"buffer_size": 1571,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								341,
-								342
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "style.css",
-					"settings":
-					{
-						"buffer_size": 1495,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1219.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

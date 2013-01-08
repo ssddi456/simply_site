@@ -9,7 +9,7 @@
 </head>
 <body>
   <div  class="wraper">
-    <div style="margin:0 144px;">
+    <div style="margin:0 184px;">
 {#include file="head.tpl"#}
 {#block name=body#}{#/block#}
 {#include file="foot.tpl"#}
@@ -17,21 +17,25 @@
 
     <div style="position:absolute;
         top:130px;left:0;
-        width:120px;
+        width:180px;
         background:#fefefe">
       {#block name=leftslider#}
-      <div style="line-height:20px;height:30px;padding:5px 10px;"> 
+
+      <div class="slide-title"> 
         Shortly about us
-      </div><div style="padding:5px 15px;">
+      </div>
+      <div class="slide-content">
        {#$short_about_us#}
       </div>
-      <div style="line-height:20px;height:30px;padding:5px 10px;"> 
+
+      <div class="slide-title"> 
         Company Profile
-      </div><div style="padding:5px 15px;">
+      </div>
+      <div class="slide-content">
        {#$company_profile#}
       </div>
-      <div> 
-        <a href="{#$contact_page#}">book free courses</a>
+      <div class="slide-title"> 
+        <a class="slide-title" href="{#$contact_page#}">book free courses</a>
       </div>
       {#/block#}
     </div>
@@ -39,18 +43,20 @@
 
     <div style="position:absolute;
         top:130px;right:0;
-        width:120px;
+        width:180px;
         background:#fefefe">
       {#block name=rightslider#}
-      <div style="line-height:20px;height:30px;padding:5px 10px;">
+      <div class="slide-title">
        why us
-      </div><div style="padding:5px 15px;">
-       {#$whyus#}
+      </div><div class="slide-content">
+       {#$why_us#}
       </div>
-      <div style="line-height:20px;height:30px;padding:5px 10px;">
-       wait to add here
-      </div><div style="padding:5px 15px;">
-       {#$whyus#}
+
+      <div class="slide-title">
+       testimonial
+      </div>
+      <div class="slide-content">
+       {#$testimonial#}
       </div>
       {#/block#}
     </div>
