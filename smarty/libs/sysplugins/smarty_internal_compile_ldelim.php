@@ -1,41 +1,32 @@
 <?php
 /**
- * Smarty Internal Plugin Compile Ldelim
- *
- * Compiles the {ldelim} tag
+ * Smarty plugin
  *
  * @package Smarty
- * @subpackage Compiler
- * @author Uwe Tews
+ * @subpackage PluginsModifierCompiler
  */
 
 /**
- * Smarty Internal Plugin Compile Ldelim Class
+ * Smarty count_words modifier plugin
  *
- * @package Smarty
- * @subpackage Compiler
- */
-class Smarty_Internal_Compile_Ldelim extends Smarty_Internal_CompileBase {
-
-    /**
-     * Compiles code for the {ldelim} tag
-     *
-     * This tag does output the left delimiter
-     * @param array  $args     array with attributes from parser
-     * @param object $compiler compiler object
-     * @return string compiled code
-     */
-    public function compile($args, $compiler)
-    {
-        $_attr = $this->getAttributes($compiler, $args);
-        if ($_attr['nocache'] === true) {
-            $compiler->trigger_template_error('nocache option not allowed', $compiler->lex->taglineno);
-        }
-        // this tag does not return compiled code
-        $compiler->has_code = true;
-        return $compiler->smarty->left_delimiter;
+ * Type:     modifier<br>
+ * Name:     count_words<br>
+ * Purpose:  count the number of words in a text
+ *
+ * @link http://www.smarty.net/manual/en/language.modifier.count.words.php count_words (Smarty online manual)
+ * @author Uwe Tews
+ * @param array $params parameters
+ * @return string with compiled code
+*/
+function smarty_modifiercompiler_count_words($params, $compiler)
+{
+    if (Smarty::$_MBSTRING) {
+        // return 'preg_match_all(\'#[\w\pL]+#' . Smarty::$_UTF8_MODIFIER . '\', ' . $params[0] . ', $tmp)';
+        // expression taken from http://de.php.net/manual/en/function.str-word-count.php#85592
+        return 'preg_match_all(\'/\p{L}[\p{L}\p{Mn}\p{Pd}\\\'\x{2019}]*/' . Smarty::$_UTF8_MODIFIER . '\', ' . $params[0] . ', $tmp)';
     }
-
+    // no MBString fallback
+    return 'str_word_count(' . $params[0] . ')';
 }
 
 ?>

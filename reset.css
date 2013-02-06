@@ -1,4 +1,4 @@
-/* CSS Document */
+﻿/* CSS Document */
 /*滚动条样*/
 
 @charset "UTF-8";
@@ -27,14 +27,14 @@ body{
   font-size:9px;
   vertical-align:top;
   line-height:12px;
-  color:#7F7F7F;
+  color:rgb(80,80,80);
 }
 ul,li,p,div{
     margin:0px;
   padding:0px;
 }
 ul,li{
-    list-style:none outside none;
+    list-style:none;
 }
 img{
     border:0px;

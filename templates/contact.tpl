@@ -1,18 +1,34 @@
 {#extends file='contents-page.tpl'#}
 {#block name=content#}
-  <h1>Mailing Address</h1><br />
-  <img src="{#$company_pic#}" alt="" align="left" style="margin-top:2px; margin-right:14px">
-  <strong>{#$company_name#}</strong><br>
-  {#$company_address#}<br>
-  <br style="line-height:12px">
-  Phone:&nbsp;&nbsp;{#$company_phone#}<br>
-  Fax:&nbsp;&nbsp;{#$company_fax#}<br>
+  <h1>Mailing Address</h1><br /><br style="line-height:11px;">
+  <table>
+    <tr>
+      <td width="160px"><img src="{#$company_pic#}"></td>
+      <td><table>
+        {#foreach $contacts as $contact #}
+          <tr><td>
+              <strong>{#$contact.name#}</strong><br>
+              {#if isset($contact.phone) #}
+              Office:&nbsp;&nbsp;{#$contact.phone#}<br>
+              {#/if#}
+              {#if isset($contact.mob) #}
+              Mob:&nbsp;&nbsp;{#$contact.mob#}<br>
+              {#/if#}
+              {#if isset($contact.email) #}
+              Email:&nbsp;&nbsp;{#$contact.email#}<br>
+              {#/if#}
+            <br style="line-height:10px"> 
+          </td></tr>
+        {#/foreach#}
+      </table></td>
+    </tr>
+  </table>
   <br style="line-height:46px"> 
   <img src="images/px2_1.gif" alt="" style="margin-left:20px;"><br>
   <br style="line-height:24px"> 
   <h1>Contact Form</h1>
   <div class="form">
-    Leave us a mesage if you are interested in us<br>
+    {#$success|default:"Leave us a mesage if you are interested in us"#}<br>
     <br style="line-height:14px"> 
     <form action="sendmail.php" method="post" enctype="multipart/form-data" id="form" target="form">
     <table class="form">
@@ -30,7 +46,7 @@
       </td>
       <td  style="width:202px; height:128px">
         <table><tr>
-          <td  style="height:109px"><textarea name="content" cols="0" rows="0" placeholder="message:"></textarea></td>
+          <td  style="height:109px"><textarea name="content" cols="0" rows="0" placeholder="your message"></textarea></td>
           </tr><tr>
           <td  style="height:19px">
             <br style="line-height:14px"> 
@@ -43,6 +59,5 @@
     </form>
   </div>
   <br style="line-height:24px"> 
-  <img src="images/px2_1.gif" alt="" style="margin-left:20px;"><br>
 
 {#/block#}

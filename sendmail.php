@@ -13,7 +13,7 @@ email     : %s
 ini_set('SMTP',      $STMP_HOST );
 ini_set('smtp_port', $SMTP_PORT );
 
-$to = 'torrent88410@gmail.com';
+$to = 'Khalid@businessfocuschina.com';
 $subject = '[auto mail] from your site, some one is interested in your courses';
 
 $headers = 'MIME-Version: 1.0\r\n';
@@ -22,8 +22,8 @@ $headers .= 'Content-type:text/plain;charset=utf-8\r\n';
 
 // 更多报头
 
-$headers .= 'From: <automail@sina.com>\r\n';
-$headers .= 'Cc: automail@sina.com\r\n';
+$headers .= 'From: <automail@businessfocuschina.com>\r\n';
+$headers .= 'Cc: automail@businessfocuschina.com\r\n';
 
 $message = sprintf($AUTOMAIL,
   $_POST['name'],
@@ -33,9 +33,9 @@ $message = sprintf($AUTOMAIL,
   $_POST['content']);
 
 $ret = mail($to,$subject,$message,$headers);
+$success = 'there is some problem during mail sending';
 if($ret){
-  echo('an email has been send');
-}else{
-  echo('there is some problem during mail sending');
+   $success = 'a mail has been send';
 }
+include('contact.php');
 ?>

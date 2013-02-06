@@ -22,20 +22,20 @@
       {#block name=leftslider#}
 
       <div class="slide-title"> 
-        Shortly about us
+        About us
       </div>
       <div class="slide-content">
        {#$short_about_us#}
       </div>
-
+      
       <div class="slide-title"> 
-        Company Profile
+        Our Mission
       </div>
       <div class="slide-content">
        {#$company_profile#}
       </div>
       <div class="slide-title"> 
-        <a class="slide-title" href="{#$contact_page#}">book free courses</a>
+        <a style="font-size: 12px;" href="{#$contact_page#}">Book A Free Consultation</a>
       </div>
       {#/block#}
     </div>
@@ -47,13 +47,14 @@
         background:#fefefe">
       {#block name=rightslider#}
       <div class="slide-title">
-       why us
-      </div><div class="slide-content">
+       Why us
+      </div>
+      <div class="slide-content">
        {#$why_us#}
       </div>
-
+      
       <div class="slide-title">
-       testimonial
+       Testimonial
       </div>
       <div class="slide-content">
        {#$testimonial#}
